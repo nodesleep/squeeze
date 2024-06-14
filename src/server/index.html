@@ -8,10 +8,16 @@
 		<link rel="stylesheet" href="/static/styles.css" />
 	</head>
 	<body>
-		<div class="container">
-			<div>
-				<h1 class="text-green">squeeze</h1>
-			</div>
+		<nav
+			class="bg-blue"
+			id="navbar"
+			hx-post="/navbar"
+			hx-trigger="load"
+			hx-target="#navbar"
+		>
+			Loading content...
+		</nav>
+		<div class="container-medium">
 			<div
 				id="content"
 				hx-post="/example"
@@ -20,6 +26,14 @@
 			>
 				Loading content...
 			</div>
+			<footer
+				id="footer"
+				hx-post="/footer"
+				hx-trigger="load"
+				hx-target="#footer"
+			>
+				Loading content...
+			</footer>
 		</div>
 	</body>
 </html>

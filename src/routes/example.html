@@ -1,2 +1,26 @@
-<h3>Hello from Example!</h3>
-<p>You can modify this file by editing /routes/example.html</p>
+<h1>hello, world!</h1>
+<p>Welcome to the world of server-side rendering using Squeeze.</p>
+<p>
+	Squeeze works by generating a route from html files in the
+	<code>routes</code> directory. This particular route is named
+	<code>example</code> and was generated from
+	<code>/routes/example.html</code>. The html within each route is compressed
+	before HTMX retrieves it.
+</p>
+<p>
+	You can create your own route by adding a your-route-name.html file in the
+	routes directory. Remember that the HTML head and body elements are already
+	present in the server index, so you can just add the content you wish to
+	render as if it were a component.
+</p>
+<p>
+	<code>
+		div id="content" hx-post="/example" hx-trigger="load"
+		hx-target="#content"
+	</code>
+</p>
+<p>
+	You can alternatively modify this file by editing
+	<code>/routes/example.html</code>
+</p>
+<p>CSS and images are placed in the <code>/static</code> directory.</p>
