@@ -25,15 +25,13 @@ Squeeze is an application that serves compressed HTML files through dynamically 
 
 2. Install the dependencies:
 
-```bash
-npm install
-```
+   ```bash
+   npm install
 
 3. Compile the TypeScript files (future releases will take care of this part):
 
-```bash
-npx tsc
-```
+   ```bash
+   npx tsc
 
 ### Usage
 
