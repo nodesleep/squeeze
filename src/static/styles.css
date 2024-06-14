@@ -1,5 +1,51 @@
-body {
-  background-color: #f0f0f0;
-  font-family: Arial, sans-serif;
+*,
+*:before,
+*:after {
+	padding: 0;
+	margin: 0;
 }
 
+:root {
+	--base: #0c0c0e;
+	--sq-green: #2ac670;
+	--sq-orange: #e65f3f;
+	--white: white;
+	--color-2: #5b5c63;
+	--blue: #3fa1f2;
+	--moke: #eeecea;
+	--black: black;
+
+	font-size: 1.2rem;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+body {
+	min-height: 100vh;
+	background: var(--base);
+	color: var(--moke);
+	font-family: Arial, sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	padding-block: 1em;
+}
+
+.text-orange {
+	color: var(--sq-orange);
+}
+
+.text-green {
+	color: var(--sq-green);
+}
+
+.container {
+	width: 50rem;
+	margin: auto;
+	padding: 2rem;
+}
