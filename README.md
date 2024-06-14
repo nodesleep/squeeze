@@ -29,10 +29,10 @@ Squeeze is an application that serves compressed HTML files through dynamically 
    ```bash
    npm install
 
-3. Compile the TypeScript files (future releases will take care of this part):
+3. Compile the TypeScript files and run Nodemon:
 
    ```bash
-   npx tsc
+   npm run dev
 
 ### Usage
 
