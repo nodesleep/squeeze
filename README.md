@@ -7,6 +7,7 @@ Squeeze is an application that serves compressed HTML files through dynamically 
 - **HTML Compression:** Compresses HTML files using `html-minifier-terser` before serving them to clients.
 - **Static Assets:** Serves CSS files and images from the `/static` directory.
 - **Middleware Support:** Watches for new HTML files and updates routes dynamically.
+- **HTMX:** Routes are retrieved via HTMX and rendered in the index.
 
 ## Getting Started
 
@@ -20,7 +21,7 @@ Squeeze is an application that serves compressed HTML files through dynamically 
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/squeeze.git
+   git clone https://github.com/nodesleep/squeeze.git
    cd squeeze
 
 2. Install the dependencies:
