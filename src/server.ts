@@ -4,7 +4,7 @@ import path from "path";
 import { minify } from "html-minifier-terser";
 
 const app = express();
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 8910;
 const routesDir = path.join(__dirname, "routes");
 const staticDir = path.join(__dirname, "static");
 const indexFilePath = path.join(__dirname, "server/index.html");
