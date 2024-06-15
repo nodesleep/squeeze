@@ -1,12 +1,10 @@
-@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Reddit+Sans:ital,wght@0,200..900;1,200..900&display=swap");
-
+@import url(https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Reddit+Sans:ital,wght@0,200..900;1,200..900&display=swap);
 *,
-*:before,
-*:after {
+:after,
+:before {
 	padding: 0;
 	margin: 0;
 }
-
 :root {
 	--code: #a0a0ac;
 	--code-dark: #212124;
@@ -30,7 +28,6 @@
 	--periwinkle: #575fcf;
 	--pink: #ef5777;
 	--sizzling-red: #f53b57;
-
 	font-family: "Reddit Sans", sans-serif;
 	font-size: 18px;
 	font-optical-sizing: auto;
@@ -39,13 +36,11 @@
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 }
-
 body {
 	min-height: 100vh;
 	color: var(--chocolate);
 	background: var(--white);
 }
-
 h1,
 h2,
 h3,
@@ -57,64 +52,52 @@ h6 {
 	font-optical-sizing: auto;
 	font-weight: 800;
 }
-
 p {
 	padding-block: 0.5em;
 }
-
 code {
 	color: var(--free-speech);
 	font-size: 0.9rem;
 }
-
 footer {
 	padding-block: 1rem;
 	position: absolute;
 	bottom: 0;
 }
-
 a,
 a:visited {
 	color: var(--free-speech);
 	text-decoration: none;
 }
-
 a:hover {
 	color: var(--free-speech);
 	text-decoration: underline;
 }
-
 .text-orange {
 	color: var(--chrome-yellow);
 }
-
 .text-blue {
 	color: var(--free-speech);
 }
-
 .bg-blue {
 	background-color: var(--free-speech);
 	color: var(--white);
 }
-
 .container-slim {
 	width: 35rem;
 	margin: auto;
 	padding: 1rem;
 }
-
 .container-medium {
 	width: 50rem;
 	margin: auto;
 	padding: 1rem;
 }
-
 .container-wide {
 	width: 70rem;
 	margin: auto;
 	padding: 1rem;
 }
-
 .headline {
 	font-size: 4rem;
 }
